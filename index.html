@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="imgs/home-icon.png" alt="Home">
+        <img src="imgs/paw-icon.png" alt="Pet">
+        <img src="imgs/doc-icon.png" alt="Document">
+        <img src="imgs/power-icon.png" alt="Power">
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Programar</h1>
+            <div class="buttons">
+                <button>Print</button>
+                <button>Share</button>
+            </div>
+        </div>
+        <div class="table-container">
+            <table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Quantidade</th>
+                            <th>Sensor</th>
+                            <th>Repetir</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-programacao">
+                    </tbody>
+                </table>
+        </div>
+        <div class="footer">
+            <a href="#">Programações especiais</a>
+        </div>
+    </div>
+    <script type="module" src="firebaseconfig/firebase.js"></script>
+    <script type= "module" src="script.js"></script>
+</body>
+</html>
